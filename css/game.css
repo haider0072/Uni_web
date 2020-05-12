@@ -14,9 +14,11 @@ body {
 }
 
 .main {
-  width: 65%;
+  width: 100%;
   background: url("/images/bg_game.png");
   position: relative;
+  margin: 0;
+  padding: 0;
 }
 
 .nav {
@@ -45,7 +47,6 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
   height: 100%;
 }
 .cover-heading {
@@ -65,4 +66,32 @@ a {
   width: 200px;
   height: 60px;
   margin-left: 30px;
+}
+
+.mid-pic {
+  position: relative;
+  right: 22%;
+}
+.soilder-pic {
+  height: 100vh;
+}
+
+.slider-dot {
+  display: flex;
+  align-items: center;
+}
+.dot-container {
+  list-style-type: none;
+}
+
+.dot-container li {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.dot-container li a div {
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  border-radius: 50px;
 }
