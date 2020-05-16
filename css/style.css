@@ -83,8 +83,7 @@ body {
 }
 
 .btn-login {
-  width: 200px;
-  height: 60px;
+  padding: 0px 50px;
   border-radius: 50px;
   border: none;
   background: linear-gradient(
